@@ -1,0 +1,20 @@
+{
+  "chromeWebSecurity":false,
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 13000,
+  "reporter": "mochawesome",
+  
+  "env": {
+    "url": "https://login.sentryc.com"
+  },
+  "testFiles": "**/*.feature",
+
+  "retries": {
+    
+    "runMode": 1
+  },
+  
+ 
+  
+  "projectId": "a5zbka"
+}

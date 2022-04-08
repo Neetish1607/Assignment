@@ -1,0 +1,283 @@
+[
+  {
+    "description": "    Application Regression",
+    "keyword": "Feature",
+    "name": "Sentry Login Page Application",
+    "line": 1,
+    "id": "sentry-login-page-application",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "sentry-login-page-application;negative-scenarios-for-email-and-password",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Negative Scenarios for Email and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Sentry Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 6584000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I do negative email address validations",
+            "result": {
+              "status": "passed",
+              "duration": 3090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I do negative password validations",
+            "result": {
+              "status": "passed",
+              "duration": 3256000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sentry-login-page-application;login-with-valid-email-and-password",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login with Valid Email and Password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Sentry Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 2080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I enter a valid email address",
+            "result": {
+              "status": "passed",
+              "duration": 2847000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I enter a valid password",
+            "result": {
+              "status": "passed",
+              "duration": 1113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 685000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I am able to see login error",
+            "result": {
+              "status": "passed",
+              "duration": 4153000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sentry-login-page-application;click-on-forgot-password-and-restore-the-password",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Click on Forgot Password and Restore the password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Sentry Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 1222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I click on the forgot password link",
+            "result": {
+              "status": "passed",
+              "duration": 603000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I am at the forgot password restore page",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I enter a valid email address",
+            "result": {
+              "status": "passed",
+              "duration": 2342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I click on the restore button",
+            "result": {
+              "status": "passed",
+              "duration": 583000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I go back to the login page",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sentry-login-page-application;click-on-terms-hyperlink-and-navigate-back-to-the-login-page",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Click on Terms hyperlink and navigate back to the login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Sentry Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 1326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I click on the terms hyperlink",
+            "result": {
+              "status": "passed",
+              "duration": 562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "The url contains terms",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I navigate back to the Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sentry-login-page-application;click-on-contions-hyperlink-and-navigate-back-to-the-login-page",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Click on Contions hyperlink and navigate back to the login page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Sentry Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 995000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I click on the conditions hyperlink",
+            "result": {
+              "status": "passed",
+              "duration": 579000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "The url contains conditions",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I navigate back to the Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+ "validEmail" :"neetish.sharma@gmail.com",
+ "invalidEmail" :"neetish.sharma",
+ "validPassword":"Password1!",
+ "invalidPasswordlessThan8Chars":"abcd",
+ "invalidPasswordEqualTo8CharsWithoutCapitalAndSpecialChar":"abcdefgh",
+ "errorMesageUponLogin":"The authentication is invalid!"
+}
