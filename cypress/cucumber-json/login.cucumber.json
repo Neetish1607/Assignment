@@ -23,7 +23,7 @@
             "name": "I open Sentry Login Page",
             "result": {
               "status": "passed",
-              "duration": 4387000000
+              "duration": 8123000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I do negative email address validations",
             "result": {
               "status": "passed",
-              "duration": 1212000000
+              "duration": 5058000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I do negative password validations",
             "result": {
               "status": "passed",
-              "duration": 1480000000
+              "duration": 4210000000
             }
           }
         ]
@@ -63,7 +63,7 @@
             "name": "I open Sentry Login Page",
             "result": {
               "status": "passed",
-              "duration": 702000000
+              "duration": 2352000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "I enter a valid email address",
             "result": {
               "status": "passed",
-              "duration": 990000000
+              "duration": 3810000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "I enter a valid password",
             "result": {
               "status": "passed",
-              "duration": 514000000
+              "duration": 1473000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "I click on the login button",
             "result": {
               "status": "passed",
-              "duration": 140000000
+              "duration": 797000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "I am able to see login error",
             "result": {
               "status": "passed",
-              "duration": 4066000000
+              "duration": 4221000000
             }
           }
         ]
@@ -123,7 +123,7 @@
             "name": "I open Sentry Login Page",
             "result": {
               "status": "passed",
-              "duration": 604000000
+              "duration": 1648000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "I click on the forgot password link",
             "result": {
               "status": "passed",
-              "duration": 241000000
+              "duration": 1067000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "I am at the forgot password restore page",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 67000000
             }
           },
           {
@@ -153,7 +153,7 @@
             "name": "I enter a valid email address",
             "result": {
               "status": "passed",
-              "duration": 891000000
+              "duration": 3511000000
             }
           },
           {
@@ -163,7 +163,7 @@
             "name": "I click on the restore button",
             "result": {
               "status": "passed",
-              "duration": 146000000
+              "duration": 769000000
             }
           },
           {
@@ -173,7 +173,7 @@
             "name": "I go back to the login page",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 83000000
             }
           }
         ]
@@ -193,7 +193,7 @@
             "name": "I open Sentry Login Page",
             "result": {
               "status": "passed",
-              "duration": 496000000
+              "duration": 2318000000
             }
           },
           {
@@ -203,7 +203,7 @@
             "name": "I click on the terms hyperlink",
             "result": {
               "status": "passed",
-              "duration": 166000000
+              "duration": 827000000
             }
           },
           {
@@ -213,7 +213,7 @@
             "name": "The url contains terms",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 90000000
             }
           },
           {
@@ -223,7 +223,7 @@
             "name": "I navigate back to the Login Page",
             "result": {
               "status": "passed",
-              "duration": 108000000
+              "duration": 599000000
             }
           }
         ]
@@ -243,7 +243,7 @@
             "name": "I open Sentry Login Page",
             "result": {
               "status": "passed",
-              "duration": 500000000
+              "duration": 1810000000
             }
           },
           {
@@ -253,7 +253,7 @@
             "name": "I click on the conditions hyperlink",
             "result": {
               "status": "passed",
-              "duration": 214000000
+              "duration": 936000000
             }
           },
           {
@@ -263,7 +263,7 @@
             "name": "The url contains conditions",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 101000000
             }
           },
           {
@@ -273,7 +273,7 @@
             "name": "I navigate back to the Login Page",
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 505000000
             }
           }
         ]
